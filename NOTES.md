@@ -14,3 +14,10 @@ Git Objects
 
 HEAD point tos current commit
 
+git rm remove files both from the index and local
+
+git rm --cached filename
+
+
+git automatically finds out when you're renaming or moving files.
+
