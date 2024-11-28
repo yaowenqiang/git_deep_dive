@@ -55,3 +55,19 @@ git reset --hard HEAD
 
 Breaking into Advanced Workflows
 
+git log  --graph  --decorate  --oneline
+
+git show <branch>
+git show HEAD
+git show HEAD^
+git show HEAD^^
+git show HEAD^2
+git show HEAD~
+git show HEAD~~
+git show HEAD~3
+git show HEAD^3~2
+git show HEAd@{"1 month ago"}
+
+
+
+ 
