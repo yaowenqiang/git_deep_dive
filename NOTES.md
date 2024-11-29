@@ -69,5 +69,22 @@ git show HEAD^3~2
 git show HEAd@{"1 month ago"}
 
 
+git blame
+
+git log --patch
+
+git log --grep apples --oneline
+git log -G apples --oneline
+git log -G apples --patch
+
+
+git log -3 --oneline
+
+git log HEAD~5..HEAD^ --oneline
+
+git log nogood..main --oneline
+
+
+
 
  
