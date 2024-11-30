@@ -104,6 +104,25 @@ Three things to Remember About Submodules
 git subtree
 
 
+git lfs track
+
+git cat-file -p commit-hash
+git cat-file -p tree-hash
+
+
+git shallow clone 
+
+git clone remote@remot.git --depth 10
+
+just got last 10 commets
+
+git pull --depth=20
+
+git partial clone
+git prefetching
+
+
+
 
 
 
