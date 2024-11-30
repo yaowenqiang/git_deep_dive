@@ -85,6 +85,29 @@ git log HEAD~5..HEAD^ --oneline
 git log nogood..main --oneline
 
 
+git submodule add git@github.com/someproject.git
+
+git submodule update --remote --recursive
+
+git submodule init
+git submodule update
+
+
+Three things to Remember About Submodules
+
++ Think of a submodule is a pointer to another project's commit.
++ Submodule don't changes unless you ask them t of a submodule is a pointer to another project's commit.
++ Submodule don't changes unless you ask them to.
++ If submodule become a chore, look for more powerful Git commands
+
+
+git subtree
+
+
+
+
+
+
 
 
  
